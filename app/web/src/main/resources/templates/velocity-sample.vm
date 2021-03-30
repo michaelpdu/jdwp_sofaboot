@@ -1,0 +1,2 @@
+<h1>Message : ${message}</h1>
+<button type="button" onclick="alertHello()">Test JavaScript</button>

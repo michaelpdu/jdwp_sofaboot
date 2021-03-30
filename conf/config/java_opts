@@ -1,0 +1,1 @@
+-server -Xms1800m -Xmx1800m -Xmn680m -Xss256k -XX:MetaspaceSize=340m -XX:MaxMetaspaceSize=340m -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:CMSFullGCsBeforeCompaction=5 -XX:+UseCMSCompactAtFullCollection -XX:+CMSClassUnloadingEnabled -XX:+DisableExplicitGC -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/admin/logs
